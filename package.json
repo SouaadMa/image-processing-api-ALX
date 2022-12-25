@@ -1,0 +1,50 @@
+{
+  "name": "image-processing-api",
+  "version": "1.0.0",
+  "description": "udacity ALX project for Backend Development with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "jasmine": "jasmine",
+    "build": "npx tsc",
+    "test": "npm run build && npm run jasmine",
+    "lint": "npx eslint src --fix",
+    "prettier": "npx prettier src --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SouaadMa/image-processing-api-ALX.git"
+  },
+  "keywords": [
+    "backend",
+    "udacity",
+    "node",
+    "express",
+    "jasmine",
+    "javascript",
+    "web",
+    "api"
+  ],
+  "author": "souaadMa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SouaadMa/image-processing-api-ALX/issues"
+  },
+  "homepage": "https://github.com/SouaadMa/image-processing-api-ALX#readme",
+  "devDependencies": {
+    "@types/jasmine": "^4.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "eslint": "^8.30.0",
+    "eslint-config-standard-with-typescript": "^24.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "express": "^4.18.2",
+    "jasmine": "^4.5.0",
+    "prettier": "2.8.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "jasmine-spec-reporter": "^7.0.0",
+    "sharp": "^0.31.3"
+  }
+}
