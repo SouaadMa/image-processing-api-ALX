@@ -4,8 +4,8 @@
   "description": "udacity ALX project for Backend Development with Node.js",
   "main": "index.js",
   "scripts": {
-    "jasmine": "jasmine",
     "build": "npx tsc",
+    "jasmine": "npm run build && jasmine",
     "test": "npm run build && npm run jasmine",
     "lint": "npx eslint src --fix",
     "prettier": "npx prettier src --write",
