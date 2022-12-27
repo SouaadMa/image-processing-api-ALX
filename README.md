@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/SouaadMa/image-processing-api-ALX">
-    <img src="assets/full/alx.jpg" alt="ALX_Logo" width="300" height="100">
+    <img src="assets/full/alx-newlogo.webp" alt="ALX_Logo" width="300" height="100">
   </a>
 
 <h3 align="center">Image Processing API Submission</h3>
