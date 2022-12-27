@@ -89,16 +89,16 @@
 2. Build the typescript code and start the server
   ```sh
    npm run start
-    ```
+  ```
 3. Build and run tests
   ```sh
    npm run test
-    ```
+  ```
 4. Format and lint the code
   ```sh
    npm run lint
    npm run prettier
-    ```
+  ```
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
