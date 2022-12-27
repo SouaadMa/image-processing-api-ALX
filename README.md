@@ -46,11 +46,11 @@
 ### Built With
 
 * [TypeScript](https://www.typescriptlang.org/)
-* [![Node][Node.js]][https://nodejs.org]
-* [![Express][Express]][https://expressjs.com/]
-* [![Jasmine][Jasmine]][https://jasmine.github.io/]
-* [![SuperTest][Supertest]][https://github.com/ladjs/supertest]
-* [![Sharp][Sharp]][https://github.com/pmb0/express-sharp]
+* [Node.js](https://nodejs.org)
+* [Express](https://expressjs.com/)
+* [Jasmine](https://jasmine.github.io/)
+* [Supertest](https://github.com/ladjs/supertest)
+* [Sharp](https://github.com/pmb0/express-sharp)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
