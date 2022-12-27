@@ -45,7 +45,7 @@
 
 ### Built With
 
-* [![TypeScript][TypeScript]][https://www.typescriptlang.org/]
+* [TypeScript](https://www.typescriptlang.org/)
 * [![Node][Node.js]][https://nodejs.org]
 * [![Express][Express]][https://expressjs.com/]
 * [![Jasmine][Jasmine]][https://jasmine.github.io/]
