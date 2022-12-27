@@ -1,5 +1,20 @@
-import myFunc from "../index";
+import supertest from "supertest";
+import app from "../index";
 
-it("expect myFunc(5) to equal 25", () => {
-  expect(myFunc(5)).toEqual(25);
+const request = supertest(app);
+
+describe("GET /api", () => {
+  it("should return a 200 response", async () => {
+    const response = await request.get("/api");
+    expect(response.status).toBe(200);
+  });
+});
+
+describe("GET /images", () => {
+  it("should return a 500 response", async () => {
+    const response = await request.get(
+      "/images?fileName=fjord&width=100&height=100"
+    );
+    expect(response.status).toBe(500); 
+  });
 });
