@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/SouaadMa/image-processing-api-ALX">
-    <img src="assets/full/alx.jpg" alt="ALX_Logo" width="80" height="80">
+    <img src="assets/full/alx.jpg" alt="ALX_Logo" width="300" height="100">
   </a>
 
 <h3 align="center">Image Processing API Submission</h3>
@@ -32,8 +32,9 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#available-scripts">Available scripts</a></li>
       </ul>
     </li>
 
@@ -52,8 +53,6 @@
 * [Supertest](https://github.com/ladjs/supertest)
 * [Sharp](https://github.com/pmb0/express-sharp)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -69,8 +68,6 @@
    ```sh
    npm install
    ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
